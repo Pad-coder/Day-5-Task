@@ -33,9 +33,9 @@ class Circle{
 let circle1 = new Circle();
 let circle2 = new Circle("red");
 let circle3 = new Circle("green", 3);
-circle1.setRadius(6);
-circle1.setColor("white");
-circle1.setRadius(9);
+circle1.setradius(6);
+circle1.setcolor("white");
+circle1.setradius(9);
 console.log(circle1.display());
 console.log(circle2.display());
 console.log(circle3.getArea());
