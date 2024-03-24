@@ -26,7 +26,7 @@ class Circle{
         return "Circumference of circle is" ${circum}
     }
     display(){
-        let str = [radius : ${this.getradius()}, color : ${this.getColor()}];
+        let str = [radius : ${this.getradius()}, color : ${this.getColor()}]
     return str;
     }
 }
@@ -39,4 +39,4 @@ circle1.setradius(9);
 console.log(circle1.display());
 console.log(circle2.display());
 console.log(circle3.getArea());
-console.log(circle3.getCircumference())
+console.log(circle3.getCircumference());
